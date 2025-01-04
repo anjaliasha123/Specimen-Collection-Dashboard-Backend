@@ -1,0 +1,1 @@
+COPY gisfeatures(id, kingdom, phylum, phylum_class, family, scientific_name, genus, country, state_province, decimal_latitude, decimal_longitude) FROM '/docker-entrypoint-initdb.d/filtered.csv' DELIMITER ',' CSV HEADER;

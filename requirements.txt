@@ -5,6 +5,10 @@ django-filter==24.3
 djangorestframework==3.15.2
 djangorestframework-gis==1.1
 psycopg==3.2.3
-psycopg2-binary==2.9.10
 sqlparse==0.5.3
 tzdata==2024.2
+python-dotenv
+gunicorn
+psycopg2-binary
+whitenoise
+
